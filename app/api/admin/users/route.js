@@ -4,7 +4,7 @@ import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import { connectDB } from "@/lib/mongodb";
 import User from "@/models/User";
 
-// ✅ GET: Fetch all users
+
 export async function GET() {
   await connectDB();
 
@@ -19,7 +19,7 @@ export async function GET() {
   return NextResponse.json(users, { status: 200 });
 }
 
-// ✅ DELETE USER
+
 export async function DELETE(req) {
   await connectDB();
 

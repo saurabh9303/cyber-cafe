@@ -49,7 +49,7 @@ export default function HomePage() {
                bg-white/10 text-blue-100 rounded-full border border-white/20
                shadow-lg backdrop-blur-md"
         >
-          Welcome to <span className="font-semibold">Rahul Cyber Café</span>
+          Welcome to <span className="font-semibold">Saurabh Cyber Cafe</span>
         </motion.div>
 
         {/* Heading */}
@@ -123,7 +123,7 @@ export default function HomePage() {
             Services We Provide
           </h2>
           <p className="text-gray-300 mt-4 max-w-xl mx-auto">
-            A digital cyber café delivering secure, fast and reliable experiences.
+            A digital cyber Cafe delivering secure, fast and reliable experiences.
           </p>
         </div>
 

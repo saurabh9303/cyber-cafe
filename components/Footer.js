@@ -91,7 +91,7 @@ export default function Footer() {
 
       <div className="border-t border-gray-700 mt-6 py-4 text-center text-gray-500 text-sm">
   &copy; {new Date().getFullYear()} CyberCafe. All rights reserved. <br />
-  Made with <span className="text-red-500">❤</span> by Varsha, Student of AKS University, Satna
+  Made with <span className="text-red-500">❤</span> by Saurabh Kumar
 </div>
     </motion.footer>
   );

@@ -54,10 +54,10 @@ export async function GET(req) {
     let bookings;
 
     if (session.user.role === "admin") {
-      // Admin can see all bookings
+      
       bookings = await Booking.find().sort({ createdAt: -1 });
     } else {
-      // Normal user sees only their bookings
+      
       bookings = await Booking.find({ userEmail: session.user.email }).sort({ createdAt: -1 });
     }
 
@@ -104,7 +104,7 @@ export async function DELETE(req) {
       );
     }
 
-    // Allow deletion if admin OR owner of the booking
+   
     if (session.user.role !== "admin" && booking.userEmail !== session.user.email) {
       return NextResponse.json(
         { message: "You are not allowed to delete this booking" },

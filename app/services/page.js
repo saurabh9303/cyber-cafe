@@ -41,12 +41,12 @@ const Card = ({ srv }) => (
         </Link>
       ) : (
         <button className="mt-4 w-full py-2 rounded-lg bg-gray-600 text-white cursor-not-allowed">
-          In Café
+          In Cafe
         </button>
       )}
     </div>
     <span className={`absolute top-4 right-4 px-3 py-1 text-xs rounded-full font-semibold text-black ${srv.slug ? "bg-green-400" : "bg-gray-400"} bg-opacity-80 shadow`}>
-      {srv.slug ? "Online" : "In Café"}
+      {srv.slug ? "Online" : "In Cafe"}
     </span>
   </motion.div>
 );
@@ -80,9 +80,9 @@ export default function ServicesPage() {
       </section>
 
       <section>
-        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-400 tracking-wide">Café Visit Required Services</h2>
+        <h2 className="text-4xl md:text-5xl font-extrabold mb-4 text-blue-400 tracking-wide">Cafe Visit Required Services</h2>
         <p className="text-gray-300 mb-10 max-w-xl text-lg">
-          These services require machines & equipment available only at the cyber café.
+          These services require machines & equipment available only at the cyber Cafe.
         </p>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
           {services.offline.map((srv, i) => (

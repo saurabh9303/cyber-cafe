@@ -16,8 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Rahul Cafe",
-  description: "Cyber Cafe Login System",
+  title: "Saurabh Cafe - Fast & Secure Cyber Services",
+  description: "Created by Saurabh (SK Developer)",
+  authors: [{ name: "Saurabh SK" }],
+  creator: "Saurabh",
+  keywords: ["Saurabh", "SK Developer", "Cyber Cafe Project"],
 };
 
 export default function RootLayout({ children }) {

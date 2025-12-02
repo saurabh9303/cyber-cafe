@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const words = [
-    "Welcome to Rahul Online Café ☕",
+    "Welcome to Saurabh Online Cafe ☕",
     "Fast & Secure Digital Services.",
     "Printouts • Scans • Online Forms • Tickets",
     "High-Speed Browsing & Professional Support.",

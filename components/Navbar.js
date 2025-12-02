@@ -6,6 +6,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useSession, signOut } from "next-auth/react";
 import { usePathname, useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -44,9 +45,18 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
 
         {/* LOGO */}
-        <Link href="/" className="text-2xl font-bold text-cyan-400 tracking-wide">
-          Cyber<span className="text-white">Cafe</span>
+        <Link href="/" className="flex items-center">
+          <Image
+
+            src="/logo.png"
+            alt="Saurabh Logo"
+            width={42}
+            height={42}
+            className="object-contain bg-cyan-100 rounded-full"
+          />
+          <h1 className="text-cyan-400">Saurabh</h1> <span>Cafe</span>
         </Link>
+
 
         {/* DESKTOP MENU */}
         <div className="hidden md:flex items-center gap-8 text-gray-300 text-sm">

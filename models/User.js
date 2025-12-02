@@ -8,10 +8,10 @@ const UserSchema = new mongoose.Schema(
     provider: String,
     role: {
       type: String,
-      default: "user", // "user" or "admin"
+      default: "user", 
     },
   },
-  { timestamps: true } // ✅ THIS ENABLES createdAt & updatedAt
+  { timestamps: true } 
 );
 
 export default mongoose.models.User || mongoose.model("User", UserSchema);

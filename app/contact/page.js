@@ -192,7 +192,7 @@ export default function ContactPage() {
 
             <div className="flex items-start gap-4">
               <MapPin className="text-cyan-400 mt-1" />
-              <p className="text-gray-300">485001, Mukhtiyarganj, Satna City, India</p>
+              <p className="text-gray-300">123 Cyber Street, Tech City, India</p>
             </div>
 
             <div className="flex items-center gap-4">

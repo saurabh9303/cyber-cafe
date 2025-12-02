@@ -40,7 +40,7 @@ export default function LoginPage() {
               <>
                 Login to access{" "}
                 <span className="text-blue-400 font-semibold">
-                  Rahul Cyber Dashboard
+                  Saurabh Cyber Dashboard
                 </span>
               </>
             )}
@@ -93,7 +93,7 @@ export default function LoginPage() {
         {/* TEXT ON IMAGE */}
         <div className="absolute bottom-10 left-10">
           <h1 className="text-4xl font-bold text-white leading-tight drop-shadow-lg">
-            Rahul Cyber Café
+            Saurabh Cyber Cafe 
           </h1>
           <p className="text-gray-300 text-lg mt-2 drop-shadow">
             Fast • Secure • Reliable

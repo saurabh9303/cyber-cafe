@@ -8,7 +8,7 @@ export default function ChatAssistant() {
   const [chat, setChat] = useState([
     {
       sender: "bot",
-      text: "👋 Welcome to Rahul Online Cyber Cafe! I’m your virtual assistant. How can I help you today?",
+      text: "👋 Welcome to Saurabh Online Cyber Cafe! I’m your virtual assistant. How can I help you today?",
     },
   ]);
   const chatEndRef = useRef(null);
@@ -56,7 +56,7 @@ export default function ChatAssistant() {
     },
     {
       q: "How can I contact support?",
-      a: "You can call us at +91-9876543210 or email support@rahulcybercafe.com — Available 9AM to 9PM.",
+      a: "You can call us at +91-9876543210 or email support@saurabhcybercafe.com — Available 9AM to 9PM.",
     },
   ];
 
