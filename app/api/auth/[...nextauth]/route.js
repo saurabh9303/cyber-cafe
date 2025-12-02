@@ -13,6 +13,8 @@ export const authOptions = {
     }),
   ],
 
+   secret: process.env.NEXTAUTH_SECRET,
+
   callbacks: {
     // 🔵 SAVE USER + ROLE TO DB
     async signIn({ user, account }) {
